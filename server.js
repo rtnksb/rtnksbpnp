@@ -11,7 +11,7 @@ app.use(express.json());
 app.use('/uploads', express.static('uploads'));
 
 // MongoDB Connection
-mongoose.connect('mongodb://localhost:27017/club', {
+mongoose.connect('mongodb+srv://kalpit:123@cluster0.w3gow.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
